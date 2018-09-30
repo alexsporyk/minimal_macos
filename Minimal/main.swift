@@ -1,9 +1,8 @@
 //
 //  main.swift
-//  Idea0
 //
-//  Created by Administrator on 9/30/18.
-//  Copyright © 2018 Social Software Limited. All rights reserved.
+//  Minimal MacOS
+//  Created by Alex Sporyk on 9/30/18.
 //
 
 import Foundation
