@@ -12,6 +12,7 @@
 		84914B50216145CA0047979C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B4F216145CA0047979C /* main.swift */; };
 		84914B542161474D0047979C /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B532161474D0047979C /* WindowController.swift */; };
 		84914B56216147DB0047979C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B55216147DB0047979C /* RootViewController.swift */; };
+		84914B58216155250047979C /* AppMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B57216155250047979C /* AppMenu.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		84914B4F216145CA0047979C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		84914B532161474D0047979C /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		84914B55216147DB0047979C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		84914B57216155250047979C /* AppMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppMenu.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 			children = (
 				84914B4F216145CA0047979C /* main.swift */,
 				84914B412161452C0047979C /* AppDelegate.swift */,
+				84914B57216155250047979C /* AppMenu.swift */,
 				84914B532161474D0047979C /* WindowController.swift */,
 				84914B55216147DB0047979C /* RootViewController.swift */,
 				84914B432161452D0047979C /* Assets.xcassets */,
@@ -138,6 +141,7 @@
 				84914B50216145CA0047979C /* main.swift in Sources */,
 				84914B542161474D0047979C /* WindowController.swift in Sources */,
 				84914B56216147DB0047979C /* RootViewController.swift in Sources */,
+				84914B58216155250047979C /* AppMenu.swift in Sources */,
 				84914B422161452C0047979C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

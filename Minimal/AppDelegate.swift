@@ -10,6 +10,7 @@ import Cocoa
 class Application: NSApplication, NSApplicationDelegate {
 
     private lazy var WindowController = MainWindowController()
+    private lazy var ApplicationMenu = AppMenu()
     
     required init?(coder: NSCoder) {
         super.init(coder: coder) // This will never called.
@@ -18,6 +19,7 @@ class Application: NSApplication, NSApplicationDelegate {
     override init() {
         super.init()
         delegate = self
+        mainMenu = ApplicationMenu
         // Insert code here to initialize your application
     }
     
