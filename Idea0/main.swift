@@ -10,7 +10,7 @@ import Foundation
 import AppKit
 
 autoreleasepool {
-    let app = Application.shared
-    app.setActivationPolicy(.regular)
-    app.run()
+    let App = Application.shared
+    App.setActivationPolicy(.regular)
+    App.run()
 }
