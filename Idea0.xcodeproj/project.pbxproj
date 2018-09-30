@@ -9,16 +9,20 @@
 /* Begin PBXBuildFile section */
 		84914B422161452C0047979C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B412161452C0047979C /* AppDelegate.swift */; };
 		84914B442161452D0047979C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84914B432161452D0047979C /* Assets.xcassets */; };
-		84914B472161452D0047979C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84914B452161452D0047979C /* MainMenu.xib */; };
+		84914B50216145CA0047979C /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B4F216145CA0047979C /* main.swift */; };
+		84914B542161474D0047979C /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B532161474D0047979C /* WindowController.swift */; };
+		84914B56216147DB0047979C /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84914B55216147DB0047979C /* RootViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		84914B3E2161452C0047979C /* Idea0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Idea0.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84914B412161452C0047979C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84914B432161452D0047979C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		84914B462161452D0047979C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		84914B482161452D0047979C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84914B492161452D0047979C /* Idea0.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Idea0.entitlements; sourceTree = "<group>"; };
+		84914B4F216145CA0047979C /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		84914B532161474D0047979C /* WindowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
+		84914B55216147DB0047979C /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +55,11 @@
 		84914B402161452C0047979C /* Idea0 */ = {
 			isa = PBXGroup;
 			children = (
+				84914B4F216145CA0047979C /* main.swift */,
 				84914B412161452C0047979C /* AppDelegate.swift */,
+				84914B532161474D0047979C /* WindowController.swift */,
+				84914B55216147DB0047979C /* RootViewController.swift */,
 				84914B432161452D0047979C /* Assets.xcassets */,
-				84914B452161452D0047979C /* MainMenu.xib */,
 				84914B482161452D0047979C /* Info.plist */,
 				84914B492161452D0047979C /* Idea0.entitlements */,
 			);
@@ -119,7 +125,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				84914B442161452D0047979C /* Assets.xcassets in Resources */,
-				84914B472161452D0047979C /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,22 +135,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84914B50216145CA0047979C /* main.swift in Sources */,
+				84914B542161474D0047979C /* WindowController.swift in Sources */,
+				84914B56216147DB0047979C /* RootViewController.swift in Sources */,
 				84914B422161452C0047979C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		84914B452161452D0047979C /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				84914B462161452D0047979C /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		84914B4A2161452D0047979C /* Debug */ = {
