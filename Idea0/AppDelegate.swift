@@ -12,14 +12,14 @@ class Application: NSApplication, NSApplicationDelegate {
 
     private lazy var WindowController = MainWindowController()
     
-    override init() {
-        super.init()
-        // Insert code here to initialize your application
-        delegate = self
-    }
-    
     required init?(coder: NSCoder) {
         super.init(coder: coder) // This will never called.
+    }
+    
+    override init() {
+        super.init()
+        delegate = self
+        // Insert code here to initialize your application
     }
     
     func applicationDidFinishLaunching(_ aNotification: Notification) {
